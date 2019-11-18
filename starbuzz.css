@@ -6,9 +6,20 @@ body {
 }
 
 #header {
+  width:270px;
+  height:120px;
+  display: inline-block;
+  background-image: url(./images/header.gif);
+  background-repeat: no-repeat;
+  
+}
+#header-2{
+  width:270px;
+  height:120px;
+  display: inline-block;
+  background-image: url(./images/header-2.jpg);
+  background-repeat: no-repeat;
   background-color: #675c47;
-  margin:           10px 10px 0px 10px;
-  height:           108px;
 }
 
 #main {
@@ -59,8 +70,8 @@ a:visited {
   text-decoration:  none;
   border-bottom:    thin dotted #675c47;
 }
-#lx {
-  width:            800px;
+#hyx {
+  width:800px;
   padding-top:      5px;
   padding-bottom:   5px;
   background-color: #675c47;
@@ -73,4 +84,33 @@ border-spacing: 10px;
 }
 #tableRow {
   display: table-row;
+}
+#xinjiade{
+  display: table-cell;
+  background-color:#efe5d0;
+  width:20%;
+  padding:15px;
+  vertical-align: top;
+}
+#youhuiquan{
+  position: fixed;
+  top:350px;
+  left:-220px;
+}
+#youhuiquan a,img{
+  border:none;
+}
+#youhuiquan:hover{
+  position: fixed;
+  top:350px;
+  left:-220px;
+  animation: 1s hyx;
+}
+@keyframes hyx{
+  from{left:-220px;}
+  10%{left:-200px;}
+  20%{left:-180px;}
+  30%{left:-160px;}
+  50%{left:-120px;}
+  to{left:-20px;}
 }
