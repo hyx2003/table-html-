@@ -105,7 +105,8 @@ border-spacing: 10px;
   position: fixed;
   top:350px;
   left:-220px;
-  animation: 1s hyx;
+  animation: 2s hyx linear ;
+  animation-fill-mode:forwards;
 }
 @keyframes hyx{
   from{left:-220px;}
