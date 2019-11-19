@@ -6,14 +6,14 @@ body {
 }
 
 #header {
-  width:270px;
+  width:545px;
   height:120px;
   background-image: url(./images/header.gif);
   background-repeat: no-repeat;
   
 }
 #header-2{
-  width:270px;
+  width:555px;
   height:120px;
   background-image: url(./images/header.gif);
   background-repeat: no-repeat;
@@ -22,17 +22,14 @@ body {
 }
 
 #main {
-  display:          table-cell;
   background:       #efe5d0 url(images/background.gif) top left;
   font-size:        105%;
   padding:          15px;
   vertical-align:   top;
-  margin-left:      auto;
-  margin-right:     auto;
+  width:auto;
 }
 
 #sidebar {
-  display:          table-cell;
   background:       #efe5d0 url(images/background.gif) bottom right;
   font-size:        105%;
   padding:          15px;
@@ -73,21 +70,14 @@ a:visited {
   border-bottom:    thin dotted #675c47;
 }
 #hyx {
+  width:960px;
   padding-top:      5px;
   padding-bottom:   5px;
   background-color: #675c47;
 }
-#tableContainer {
-display: table;
-border-spacing: 10px;
-}
-#tableRow {
-  display: table-row;
-}
 #xinjiade{
-  display: table-cell;
   background-color:#efe5d0;
-  width:20%;
+  font-size:125%;
   padding:15px;
   vertical-align: top;
 }
@@ -118,4 +108,8 @@ border-spacing: 10px;
   position: absolute;
   top:30px ;
   left:900px;
+}
+#zhongjian{
+  width:960px;
+  
 }
