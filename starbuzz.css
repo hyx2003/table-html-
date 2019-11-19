@@ -8,7 +8,6 @@ body {
 #header {
   width:270px;
   height:120px;
-  display: inline-block;
   background-image: url(./images/header.gif);
   background-repeat: no-repeat;
   
@@ -16,11 +15,10 @@ body {
 #header-2{
   width:270px;
   height:120px;
-  display: inline-block;
-  background-image: url(./images/header-2.jpg);
+  background-image: url(./images/header.gif);
   background-repeat: no-repeat;
-  background-color: #675c47;
-  margin-left:250px;
+  background-position-x: -520px;
+  float:right;
 }
 
 #main {
@@ -29,6 +27,8 @@ body {
   font-size:        105%;
   padding:          15px;
   vertical-align:   top;
+  margin-left:      auto;
+  margin-right:     auto;
 }
 
 #sidebar {
@@ -37,6 +37,7 @@ body {
   font-size:        105%;
   padding:          15px;
   vertical-align:   top;
+  
 }
 
 #footer {
@@ -72,12 +73,9 @@ a:visited {
   border-bottom:    thin dotted #675c47;
 }
 #hyx {
-  width:            900px;
   padding-top:      5px;
   padding-bottom:   5px;
   background-color: #675c47;
-  margin-left:      auto;
-  margin-right:     auto;
 }
 #tableContainer {
 display: table;
@@ -95,29 +93,29 @@ border-spacing: 10px;
 }
 #youhuiquan{
   position: fixed;
-  top:350px;
-  left:-220px;
+  top:390px;
+  left:-240px;
 }
 #youhuiquan a,img{
   border:none;
 }
 #youhuiquan:hover{
   position: fixed;
-  top:350px;
-  left:-220px;
-  animation: 2s hyx linear ;
-  animation-fill-mode:forwards;
+  top:390px;
+  left:-240px;
+  animation: 2s hyx linear forwards;
+
 }
 @keyframes hyx{
-  from{left:-220px;}
-  10%{left:-200px;}
-  20%{left:-180px;}
-  30%{left:-160px;}
-  50%{left:-120px;}
-  to{left:-20px;}
+  from{left:-240px;}
+  10%{left:-220px;}
+  20%{left:-200px;}
+  30%{left:-180px;}
+  50%{left:-140px;}
+  to{left:-40px;}
 }
 #jiangbei{
-  position: fixed;
-  top:30px;
+  position: absolute;
+  top:30px ;
   left:900px;
 }
