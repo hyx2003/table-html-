@@ -19,22 +19,31 @@ body {
   background-repeat: no-repeat;
   background-position-x: -520px;
   float:right;
+  margin:0px 0px 0px 1100px;
 }
 
 #main {
+  display:table-cell;
   background:       #efe5d0 url(images/background.gif) top left;
-  font-size:        105%;
-  padding:          15px;
+  font-size:        110%;
+  padding:          10px;
   vertical-align:   top;
-  width:auto;
+  width:605px;
+  position: relative;
+  left:190px;
+  top:15px;
 }
 
 #sidebar {
+  display:          table-cell;
   background:       #efe5d0 url(images/background.gif) bottom right;
-  font-size:        105%;
+  font-size:        95%;
   padding:          15px;
   vertical-align:   top;
-  
+  width:90px;
+  position: relative;
+  top:16px;
+  left:190px;
 }
 
 #footer {
@@ -42,7 +51,7 @@ body {
   color:            #efe5d0;
   text-align:       center;
   padding:          15px;
-  margin:           0px 10px 10px 10px;
+  margin:           0px 10px 10px 550px;
   font-size:        90%;
   clear:            left;
 }
@@ -70,16 +79,25 @@ a:visited {
   border-bottom:    thin dotted #675c47;
 }
 #hyx {
-  width:960px;
   padding-top:      5px;
   padding-bottom:   5px;
   background-color: #675c47;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
 }
 #xinjiade{
+  display: table-cell;
   background-color:#efe5d0;
   font-size:125%;
   padding:15px;
   vertical-align: top;
+  width:600px;
+  position: relative;
+  top:15px;
+  right:5px;
+  left:190px;
+  bottom:10px;
 }
 #youhuiquan{
   position: fixed;
@@ -102,7 +120,7 @@ a:visited {
   20%{left:-200px;}
   30%{left:-180px;}
   50%{left:-140px;}
-  to{left:-40px;}
+  to{left:-60px;}
 }
 #jiangbei{
   position: absolute;
@@ -110,6 +128,7 @@ a:visited {
   left:900px;
 }
 #zhongjian{
-  width:960px;
-  
+  line-height: normal;
+table-layout: inherit;
 }
+
