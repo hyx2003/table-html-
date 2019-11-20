@@ -1,0 +1,29 @@
+body{
+    color:#36aa52;
+    font-size:125%;
+    margin:20px;
+}
+#dingwei{
+    position: relative;
+}
+a{
+    color:#36aa52;
+    position: relative;
+    top:360px;
+    left:20px;  
+    font-size: 500%;
+}
+a:hover{
+    text-decoration: none;
+    color:#205563;
+    animation: 10s hyx linear forwards ;
+    top:360px;
+    left:20px;
+}
+@keyframes hyx{
+    from{left:20px;top:360px;}
+    25%{left:254px;top:521px; }
+    50%{left:398px;top:258px;}
+    75%{left:526px;top:635px;}
+    to{left:785px;top:369px;}
+}
